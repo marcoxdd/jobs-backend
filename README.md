@@ -2,17 +2,16 @@
 
 ## OBJETIVO
 
-Desenvolva uma API que execute o CRUD completo atráves de uma interface REST e que atenda aos requisitos descritos na seção [teste](#TESTE). A api deve ser desenvolvida em JAVA utilizando o framework [Play Framework](https://www.playframework.com/documentation/2.4.x/NewApplication) e banco de dados [Postgresql](http://www.postgresql.org/) utilize Hibernate ou queries nativas para manipular o banco de dados.
+Desenvolva uma API que execute o CRUD completo atráves de uma interface REST e que atenda aos requisitos descritos na
+seção [teste](#TESTE). A api deve ser desenvolvida em JAVA utilizando o
+framework [Play Framework](https://www.playframework.com/documentation/2.4.x/NewApplication) e banco de
+dados [Postgresql](http://www.postgresql.org/) utilize Hibernate ou queries nativas para manipular o banco de dados.
 
 ## ENTREGA
 
 Faça um fork deste repositório e suba seu código nele. Depois abra um pull-request.
 
 Obrigado e bom divertimento 💪💪.
-
-
-
-
 
 ## TESTE
 
@@ -25,6 +24,7 @@ SCHEMA DE CONTATO
 ```
 
 ##### Api http interface
+
 ```
 GET /contacts
   params
@@ -46,9 +46,6 @@ DELETE /contacts/:id
 RETURN Sucesso contato excluído
 ````
 
-
-
-
 #### Profissionais
 
 ```
@@ -65,6 +62,7 @@ SCHEMA DE PROFISSIONAL
 ```
 
 ##### Api http interface
+
 ```
 GET /professionals
   params
