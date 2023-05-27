@@ -1,7 +1,6 @@
 package br.com.example.jobsbackend.model.enums;
 
-
-public enum Cargo {
+public enum Position {
     DESENVOLVEDOR,
     DESIGNER,
     SUPORTE,
