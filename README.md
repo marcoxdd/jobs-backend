@@ -93,7 +93,7 @@ RETURN Sucesso profissional excluído
 # Observações específicas
 
 ### Banco de dados
-Para subir o banco de dados já configurado basta executar o comando
+Para subir o banco de dados já configurado basta executar o comando a seguir na pasta raiz do projeto
 ```
 docker compose up -d
 ```
