@@ -16,7 +16,8 @@ public class Contact {
     public Contact() {
     }
 
-    public Contact(String name, String contactInfo) {
+    public Contact(Long id, String name, String contactInfo) {
+        this.id = id;
         this.name = name;
         this.contactInfo = contactInfo;
     }
@@ -37,11 +38,12 @@ public class Contact {
         this.id = id;
     }
 
+    public String getContactInfo() {
+        return contactInfo;
+    }
+
     public String getName() {
         return name;
     }
 
-    public String getContactInfo() {
-        return contactInfo;
-    }
 }
