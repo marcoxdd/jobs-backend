@@ -115,7 +115,7 @@ Para Profissionais (Professionals):
 {
   "name": "Profissional Teste",
   "position": "DESENVOLVEDOR",
-  "birthDate": "1996-11-06",
+  "birthDate": "1996-11-06", //padrão de data yyyy-MM-dd
   "contacts": [
     {
       "name": "Contato 1",
