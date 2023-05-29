@@ -98,7 +98,7 @@ para subir o banco de dados já configurado basta executar o comando
 docker compose up -d
 ```
 
-### Chamada para as apis
+### Chamada para as Apis
 
 A nomenclatura das classes e suas variáveis está em inglês. Portanto, para fazer chamadas aos métodos de cadastro e edição, utilize a seguinte estrutura:
 
