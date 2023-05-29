@@ -89,3 +89,44 @@ RETURN Sucesso profissional excluído
  * Ao editar um profissional os contatos também são editados.
  */
 ```
+
+# Observações específicas
+
+### Banco de dados
+para subir o banco de dados já configurado basta executar o comando
+```
+docker compose up -d
+```
+
+### Chamada para as apis
+
+A nomenclatura das classes e suas variáveis está em inglês. Portanto, para fazer chamadas aos métodos de cadastro e edição, utilize a seguinte estrutura:
+
+Para Contatos (Contacts):
+
+```json
+{
+  "name": "Contato Teste",
+  "contactInfo": "teste@example.com"
+}
+```
+Para Profissionais (Professionals):
+```json
+{
+  "name": "Profissional Teste",
+  "position": "DESENVOLVEDOR",
+  "birthDate": "1996-11-06",
+  "contacts": [
+    {
+      "name": "Contato 1",
+      "contactInfo": "contato1@example.com"
+    },
+    {
+      "name": "Contato 2",
+      "contactInfo": "contato2@example.com"
+    }
+  ]
+}
+```
+
+Lembre-se de que em Professionals não é necessário enviar a data de criação, pois ela será adicionada automaticamente.
